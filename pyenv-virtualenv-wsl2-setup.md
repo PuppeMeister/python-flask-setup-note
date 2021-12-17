@@ -54,7 +54,38 @@ $ pyenv --version
 
 ## 4. Install Virtual Env Wrapper
 
+```
+$ sudo pip3 install virtualenvwrapper
+```
 
+## 5. Adding this additional variable to /.bashrc
+
+'''
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON='/usr/bin/pyhton3'
+source /usr/local/bin/virtualenvwrapper.sh
+'''
+
+## 6. Test the wrapper by creating a new virtual environment
+
+'''
+$ mkvirtualenv [NAME-OF-THE-NEW-VIRTUAL-ENVIRONMENT]
+'''
+
+## 7. Activate and deactivate virtual environment
+
+```
+$ workon [NAME-OF-THE-NEW-VIRTUAL-ENVIRONMENT]
+```
+
+```
+$ deactivate
+```
+
+## 8. After Installation
+
+Adding another python packages can be done by running usual pip command. The isolated virtual environment can be accessed
+through ''python interpreter'' setup in Pycharm (in case using Pycharm).
 
 ## References
 1. https://realpython.com/intro-to-pyenv/
