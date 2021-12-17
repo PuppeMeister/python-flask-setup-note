@@ -1,4 +1,4 @@
-## Running Flask Application in Powershel
+## Running Flask Application in Powershell
 
 ### 1. Adding FLASK_APP and FLASK_ENV Variable
 
