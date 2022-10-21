@@ -76,6 +76,8 @@ export WORKON_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON='/usr/bin/python3'
 source /usr/local/bin/virtualenvwrapper.sh
 ```
+If it doesn't work, or when typing "workon" command after starting WSL, embeed those commands to /.bashrc via nano. Then restart it again with "source ~/.bashrc"   
+
 
 ## 8. Test the wrapper by creating a new virtual environment
 
