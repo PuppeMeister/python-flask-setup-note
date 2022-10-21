@@ -17,6 +17,11 @@ and
 ```
 $ pip3 --version
 ```
+for knowing which directory python3 using, use
+
+'''
+python3
+'''
 
 Installed the required dependencies by typing this command below.
 
